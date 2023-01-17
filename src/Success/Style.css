@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  text-align: center;
+}
+.container-wrapper {
+  width: 100%;
+  width: 100%;
+  padding-top: 22vh;
+
+  text-align: center;
+  font-family: "Playfair Display";
+
+  height: 80vh;
+  background: rgb(200, 247, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(200, 247, 255, 1) 0%,
+    rgba(211, 247, 254, 1) 39%,
+    rgba(233, 250, 252, 1) 100%
+  );
+}
+
+.container-wrapper  #header {
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: 2px;
+ 
+
+}
+.container-wrapper button {
+  padding: 10px 40px;
+  color: #fff;
+  border: none;
+  margin: 10px;
+  font-size: 16px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  font-family: "Playfair Display";
+  border-radius: 4px;
+  background: rgb(50, 154, 250);
+  background: linear-gradient(
+    90deg,
+    rgba(50, 154, 250, 1) 0%,
+    rgba(16, 140, 254, 1) 100%
+  );
+}
+.container-wrapper  span {
+  font-size: 24px;
+  font-weight: 600;
+
+  text-align: center;
+  line-height: 4rem;
+}
+@media screen and (max-width: 600px) {
+    .container-wrapper  #header {
+        font-size: 2rem;
+        line-height: 2rem;
+      }
+      .container-wrapper  span {
+        font-size: 20px;
+        line-height: 1rem;
+      }
+      .container-wrapper {
+        padding-top: 25vh;
+      }
+  }
+
+
+  /* ********************************headerStyling********************************* */

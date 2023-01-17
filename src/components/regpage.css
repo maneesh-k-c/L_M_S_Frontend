@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.bgContent {
+    text-align: center;
+    font-family: 'Catamaran', sans-serif;
+}
+
+.header {
+
+    background-color: #a2dceb5e;
+    min-height: 100vh;
+    /* height: 40rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    /* overflow: hidden; */
+
+
+}
+
+.bodyMain {
+    min-width: 1000px;
+    width: 110vmin;
+    height: 80vmin;
+    float: left;
+}
+
+.bodyForm {
+    min-width: 400px;
+    min-height: 550px;
+    width: 55vmin;
+    height: auto;
+    background-color: #3c93e5;
+    float: left;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+
+}
+
+.textbx {
+    margin-top: 4rem;
+    text-align: justify;
+    color: #FFF;
+    margin-left: 1rem;
+    margin-right: 2rem;
+}
+
+#RegHead {
+    font-size: 30px;
+}
+
+#RegHead2 {
+    font-size: 12px;
+}
+#RegHeadTeacher{
+    font-size: 12px; 
+}
+.btnsection {
+    width: 400px;
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+
+}
+
+.bodyAdd {
+    min-width: 500px;
+    min-height: 550px;
+    height: auto;
+    background-color: #FFF;
+    float: left;
+    padding-top: 2rem;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.formcontent {
+    max-width: 400px;
+    background-color: #FFF;
+    margin: auto;
+    margin-top: 1rem;
+
+}
+
+.formcontent2 {
+    max-width: 400px;
+    background-color: #FFF;
+    margin: auto;
+    margin-top: 1rem;
+
+}
+
+.formcontent3 {
+    max-width: 400px;
+    background-color: #FFF;
+    margin: auto;
+    margin-top: 1rem;
+    min-height: 486px;
+
+}
+
+.formcontent3next {
+    max-width: 400px;
+    background-color: #FFF;
+    margin: auto;
+    /* margin-top: .rem; */
+    min-height: 592px;
+    
+
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .header {
+
+        min-height: 0vh;
+    }
+
+    .bodyMain {
+        width: 100%;
+        height: auto;
+    }
+
+    .bodyAdd {
+        width: 100%;
+        height: 142vmin;
+        /* float: right; */
+        margin: auto;
+        border-radius: 0px;
+    }
+
+    .textbx {
+        width: 80%;
+        margin: auto;
+        max-width: 336px;
+    }
+
+    #RegHead {
+        text-align: center;
+        margin-top: 4rem;
+    }
+
+    #RegHead2 {
+        text-align: center;
+    }
+
+    #RegHeadTeacher {
+        text-align: center;
+    }
+
+    .bodyForm {
+        width: 100%;
+        border-radius: 0px;
+
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .btnsection {
+        width: 340px;
+    }
+
+    .formcontent {
+        width: 340px;
+    }
+
+    .formcontent2 {
+        width: 340px;
+    }
+
+    .formcontent3 {
+        width: 340px;
+    }
+}
+
+
+
+#iConText {
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: .5rem;
+    margin-left: 0rem;
+    color: #4f4f4f;
+}
+
+#smbtn {
+    /* margin: 1rem; */
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+
+}
+#smbtn2 {
+    /* margin: 1rem; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: .2rem;
+
+}
+
+#iConSubText {
+    font-size: 12px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+#ForgData {
+    margin-top: -1rem;
+    font-size: 12px;
+}
+
+#FootData {
+    margin-top: 1rem;
+    font-size: 12px;
+}
+
+#selector {
+    padding-left: .99em;
+    padding-right: .99em;
+    padding-top: .43em;
+    padding-bottom: .35em;
+    font-size: .775rem;
+    line-height: 1.6;
+    min-height: 29px;
+    background: transparent;
+    display: block;
+    width: 100%;
+    line-height: 1.6;
+    color: #4f4f4f;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 4px;
+}
+
+select {
+    font-size: 14px;
+}
+
+#SelectorMainText {
+    color: #4f4f4fb5;
+
+}
+
+#RegChange {
+    background-color: #fff;
+    color: #3b71ca;
+    width: 30%;
+    border-color: #2f5aa2;
+    padding: .375rem 1rem .3125rem 1rem;
+    font-size: .75rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #3b71ca;
+    margin: .15rem;
+}
+
+#activeRegChange {
+    background-color: #3b71ca;
+    color: #fff;
+    width: 30%;
+    border-color: #2f5aa2;
+    padding: .375rem 1rem .3125rem 1rem;
+    font-size: .75rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #3b71ca;
+    margin: .15rem;
+
+}
+
+#RegChange:hover {
+    background-color: #3b71ca;
+    color: #fff;
+    border-color: #2f5aa2;
+}
+
+#RegBtn {
+    color: #fff;
+    background: rgb(30, 31, 31);
+    background: linear-gradient(0deg, rgba(30, 31, 31, 1) 0%, rgba(55, 153, 244, 1) 100%);
+    width: 47%;
+    line-height: 1.5;
+    border-radius: .2rem;
+    align-items: flex-start;
+    margin-left: -52%;
+    margin-bottom: 1rem;
+    border: none;
+    line-height: 1.5;
+    font-size: 12px;
+    min-height: 29px;
+
+}
+
+#RegBtn2 {
+    color: #fff;
+    background-color: #3b71ca;
+    width: 47%;
+    line-height: 1.5;
+    border-radius: .2rem;
+    align-items: flex-start;
+    margin-left: -52%;
+    margin-bottom: 1rem;
+    border: none;
+    line-height: 1.5;
+    font-size: 12px;
+    min-height: 30px;
+}
+
+#RegFootText {
+    width: 100%;
+    text-align: justify;
+    font-size: 12px;
+    color: #4f4f4f;
+
+}
+
+.imgDiv {
+    width: 300px;
+    padding-bottom: 1rem;
+}
+
+#descText {
+    font-size: 10px;
+    text-align: left;
+
+}
+
+.resBtn {
+    margin: -1px;
+    width: 1px;
+    height: 1px;
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+
+}
+
+.btn {
+    display: inline-block;
+    padding: .5rem 1rem;
+    border-radius: .25rem;
+    cursor: pointer;
+    width: 100%;
+    margin-top: .4rem;
+    margin-bottom: .5rem;
+
+}
+
+#resbtnStyle {
+    color: #2f5aa2;
+    text-transform: capitalize;
+    background-color: rgba(182, 229, 240, 0.442);
+    border: 1px solid #2f59a243;
+}
+
+#TextArea {
+    height: 50px;
+}
+
+#TextArea2 {
+    height: 35px;
+    margin-bottom: .2rem;
+}

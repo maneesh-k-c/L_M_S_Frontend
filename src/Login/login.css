@@ -1,0 +1,450 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.bgContent {
+    text-align: center;
+    font-family: 'Catamaran', sans-serif;
+}
+
+.header {
+    
+    background-color: #f6f6f6;
+    min-height: 100vh;
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    overflow: hidden;
+    
+    
+}
+.bodyMain {
+    min-width: 1000px;
+    width: 110vmin;
+    height: 95vmin;
+
+ 
+    float: left;
+}
+
+.bodyForm {
+    min-width: 400px;
+    min-height: 500px;
+    width: 55vmin;
+    height: 85vmin;
+    background-color: #3A54AA;
+    float: left;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+}
+.bodyAdd {
+    min-width: 500px;
+    min-height: 500px;
+    width: 55vmin;
+    height: 85vmin;
+    background-color:#FFF;
+    float: left;
+    
+  
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.login-btn-pass{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login-btn{
+    padding-left: 40px;
+    padding-right: 40px;
+    text-transform: capitalize;
+}
+.login-buttons{
+    margin-top: 30px;
+}
+.login-social-media{
+   
+    display: flex;
+    justify-content: space-evenly;
+
+   
+}
+.login-social-media-icons{
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    padding: 5px 15px 5px 5px;
+    cursor: pointer;
+}
+.login-social-media-icons:nth-child(1){
+    border: 1px solid rgb(74, 189, 235);
+   
+}
+.login-social-media-icons:nth-child(2){
+    border: 1px solid rgb(43, 62, 138);
+  
+}
+.login-social-media-icons:nth-child(3){
+    border: 1px solid rgb(74, 189, 235);
+   
+}
+.login-text{
+    text-align: left;
+}
+@media only screen and (max-width: 1000px) {
+    .header {
+       
+        min-height: 0vh;
+    }
+    .bodyMain{
+        width: 100%;
+        height: auto;
+    }
+    
+    .bodyAdd {
+        width: 100%;
+        height: 142vmin;
+        margin: auto;
+        border-radius: 0px;
+        
+        
+        
+    }
+    .bodyForm {
+        width: 100%;
+     
+        border-radius: 0px;
+        
+    }
+    .textCaroContent{
+        display: none;
+    }  
+    #iConSubText{
+        display: flex;
+        justify-content: center;
+       
+    }
+  }
+  .login-for-pass{
+    color: rgb(83, 77, 77);
+    font-size: 15px;
+  }
+ 
+  .formcontent{
+    max-width: 300px;
+   
+    background-color: #FFF;
+    margin: auto;
+    margin-top: 1rem;
+
+    
+  }
+#iConMain{
+    width: 80px;
+    height: 80px;
+    color: #3A54AA;
+    background-color: #FFF;
+    border-radius: 50px;
+    padding-top: 25px;
+    
+}
+#iConText{
+    margin-top: 30px;
+    font-size: 20px;
+    color: #65a2f0;
+    margin-right: 100px;
+   
+}
+#iConSubText{
+    font-size: 13px;
+  
+    margin-top: 30px;
+    text-align: left;
+}
+#ForgData{
+    margin-top: -1rem;
+    font-size: 12px;
+}
+#FootData{
+    margin-top: 1rem;
+    font-size: 12px;
+   
+    background-color:antiquewhite;
+}
+#FootData p{
+    float: left;
+}
+#FcGoogleIcon{
+   margin-left: 1rem;
+   
+}
+.caroContent{
+    width: 65%;
+
+    margin: auto;
+
+    margin-top: 2rem;
+    max-width: 400px;
+}
+#caroCard{
+    width: 100%;
+    height: 200px;
+    margin-top: -1rem;
+    
+}
+
+#caroSubtext{
+    font-size: 15px;
+}
+.span{
+    font-size: 10px;
+    color: red;
+    display: flex;
+    
+ 
+    
+ 
+  
+
+} */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.bgContent {
+    text-align: center;
+    font-family: 'Catamaran', sans-serif;
+
+}
+
+.header {
+    
+    background-color: #f6f6f6;
+    min-height: 100vh;
+    /* height: 40rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    overflow: hidden;
+   
+    
+    
+}
+.bodyMain {
+    min-width: 1000px;
+    width: 110vmin;
+    height: 95vmin;
+
+    /* background-color: aquamarine; */
+    float: left;
+
+}
+
+.bodyForm {
+    min-width: 400px;
+    min-height: 550px;
+    width: 55vmin;
+    height: 85vmin;
+    background-color: #3A54AA;
+    float: left;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+}
+.bodyForm img{
+    width: 300px;
+    height: 50vmin;
+}
+.bodyAdd {
+    min-width: 500px;
+    min-height: 550px;
+    width: 55vmin;
+    height: 85vmin;
+    background-color:#FFF;
+    float: left;
+    
+    padding-top: 2rem;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.login-btn-pass{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login-btn{
+    padding-left: 40px;
+    padding-right: 40px;
+    text-transform: capitalize;
+}
+.login-buttons{
+    margin-top: 30px;
+}
+.login-social-media{
+   
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+   /* gap: 20px; */
+   
+}
+.login-social-media-icons{
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    padding: 5px 15px 5px 5px;
+    cursor: pointer;
+}
+.login-social-media-icons:nth-child(1){
+    border: 1px solid rgb(74, 189, 235);
+   
+}
+.login-social-media-icons:nth-child(2){
+    border: 1px solid rgb(43, 62, 138);
+  
+}
+.login-social-media-icons:nth-child(3){
+    border: 1px solid rgb(74, 189, 235);
+   
+}
+.login-text{
+    text-align: left;
+}
+@media only screen and (max-width: 1000px) {
+    .header {
+       
+        min-height: 0vh;
+    }
+    .bodyMain{
+        width: 100%;
+        height: auto;
+    }
+    
+    .bodyAdd {
+        width: 100%;
+        height: 142vmin;
+        /* float: right; */
+        margin: auto;
+        border-radius: 0px;
+        
+        
+        
+    }
+    .bodyForm {
+        width: 100%;
+        /* float: right; */
+        border-radius: 0px;
+        
+    }
+    .textCaroContent{
+        display: none;
+    }  
+    #iConSubText{
+        display: flex;
+        justify-content: center;
+       
+    }
+  }
+  @media screen and (max-width:500px) {
+    .bodyMain{
+        width: auto;
+    }
+    .formcontent{
+        width: 340px;
+    }
+    .bodyForm img{
+        height: 150vmin;
+    }
+
+  }
+  .login-for-pass{
+    color: rgb(83, 77, 77);
+    font-size: 15px;
+  }
+ 
+  .formcontent{
+    max-width: 400px;
+    /* margin: 1rem;
+    margin-left: 3rem;
+    margin-right: 3rem; */
+    background-color: #FFF;
+    margin: auto;
+    margin-top: 1rem;
+
+    
+  }
+#iConMain{
+    width: 80px;
+    height: 80px;
+    color: #3A54AA;
+    background-color: #FFF;
+    border-radius: 50px;
+    padding-top: 25px;
+    
+}
+#iConText{
+    margin-top: 30px;
+    font-size: 20px;
+    color: #65a2f0;
+    margin-right: 100px;
+    text-align: left;
+   
+}
+#iConSubText{
+    font-size: 13px;
+    /* margin-left: 6.5rem; */
+    /* margin-right: 2rem; */
+    margin-top: 30px;
+    text-align: left;
+}
+#ForgData{
+    margin-top: -1rem;
+    font-size: 12px;
+}
+#FootData{
+    margin-top: 1rem;
+    font-size: 12px;
+   
+    background-color:antiquewhite;
+}
+#FootData p{
+    float: left;
+}
+#FcGoogleIcon{
+   margin-left: 1rem;
+   
+}
+.caroContent{
+    width: 65%;
+    /* height: 50vmin; */
+    margin: auto;
+    /* background-color: antiquewhite; */
+    margin-top: 2rem;
+    max-width: 400px;
+}
+#caroCard{
+    width: 100%;
+    height: 200px;
+    margin-top: -1rem;
+    
+}
+
+#caroSubtext{
+    font-size: 15px;
+}
+.span{
+    font-size: 10px;
+    color: red;
+    display: flex;
+    
+ 
+    
+ 
+  
+
+} 
+.btn{
+    width: auto;
+}

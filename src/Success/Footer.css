@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display&display=swap');
+
+.footer-main{
+    
+    /* background-color: lightblue; */
+}
+
+.footer-thr{
+    display: flex;
+    /* background-color: aliceblue; */
+    justify-content: space-around;
+    background-color: white;
+    padding: 50px 20px;
+}
+.footer-items{
+    text-align: left;
+    
+    font-family: 'Playfair Display', serif;
+    color: black;
+}
+.footer-items h5{
+    margin-bottom: 20px;
+    color: black;
+    font-weight: 600;
+}
+.footer-items a{
+    font-size: 13px;
+    margin-top: 15px;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+.footer-apple-google img{
+  height: 50px;
+  width: 150px;
+  margin-top: 20px;
+  cursor: pointer;
+
+}
+
+.footer-language{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    border: 1px solid rgb(74, 189, 235);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.footer-two{
+    background-color: gainsboro;
+}
+.footer-two-sec{
+    padding: 25px 100px 25px 100px;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    font-family: 'Playfair Display', serif;
+font-size: 20px;
+
+}
+.footer-two-icons{
+    display: flex;
+   gap: 30px;
+
+}
+@media screen and (max-width:680px) {
+    .footer-thr{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+       
+       
+        
+    }
+    .footer-items{
+        text-align: center;
+    }
+    .footer-two-sec{
+        display: block;
+    }
+}
+
+
